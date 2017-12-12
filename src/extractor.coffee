@@ -162,8 +162,8 @@ module.exports =
   # Grab the favicon from an html doc
   favicon: (doc) ->
     tag = doc('link').filter ->
-      doc(this).attr('rel')?.toLowerCase() == 'shortcut icon'
-    tag.attr('href')
+      doc(this).attr('rel')?.toLowerCase().match(/(shortcut )?icon/i)
+    tag.first().attr('href')
 
   # Determine the language of an html doc
   lang: (doc) ->

@@ -2,7 +2,7 @@
   "name": "unfluff",
   "version": "3.0.0",
   "description": "A web page content extractor",
-  "homepage": "https://github.com/ageitgey/node-unfluff",
+  "homepage": "https://github.com/andrepcg/node-unfluff",
   "keywords": [
     "content extraction",
     "html",
@@ -17,9 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ageitgey/node-unfluff"
+    "url": "git://github.com/andrepcg/node-unfluff"
   },
-  "bugs": "https://github.com/ageitgey/node-unfluff/issues",
+  "bugs": "https://github.com/andrepcg/node-unfluff/issues",
   "engines": {
     "node": "0.8.x || 0.9.x || 0.10.x"
   },
